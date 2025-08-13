@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    gap:100px
+}
+
+.systemtext{
+    margin-left: 60px;
+    margin-top:-30px;
+}
+
+.systemimg{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.itemimg{
+    margin-top: 60px;
+    margin-left:-40px
+    
+}
+
+.itemtext{
+    margin-top:-33px
+}
