@@ -218,6 +218,14 @@ body.light {
   margin-left: 30px;
 }
 
+.toorder{
+  background-color: #e02b2b;
+}
+
+.theme{
+  background-color: #06a6ff;
+}
+
 .carddimage:hover{
   cursor: pointer;
   content: url("images/pcamd2.png");
@@ -229,6 +237,8 @@ body.light {
   color: #0ff;
   box-shadow: 0 0 5px #0ff;
 }
+
+
 
 .themetoggle:hover {
   background: #0ff;
