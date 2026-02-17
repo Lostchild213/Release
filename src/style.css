@@ -1,0 +1,306 @@
+body {
+  background-color: #0b0b0b;
+}
+
+button {
+  position: relative;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  color: white;
+}
+
+.headerimg {
+  width: 9px;
+}
+
+body.light {
+  background: #f2f2f2;
+}
+
+.systemb_header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.topnavhref {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.topnavhref a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 4px 6px;
+}
+
+.topnavhref a:hover {
+  color: #06a6ff;
+}
+
+.sidenav {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+
+.sidenav1 {
+  padding-top: 6px;
+}
+
+.sidecard {
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 18px;
+  border-radius: 8px;
+  min-height: 220px;
+  color: lightgrey;
+}
+
+.sidetitle {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  color: #9aa0a6;
+}
+
+.sidelist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidelist a {
+  color: #bdbdbd;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.sidelist a:hover {
+  color: #06a6ff;
+}
+
+
+
+.mainlist {
+  padding-top: 6px;
+}
+
+
+.mainhead {
+  margin-bottom: 18px;
+}
+
+.maintitle {
+  color: #fff;
+  font-size: 22px;
+  margin: 0;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.maincount {
+  color: #9aa0a6;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+
+.pccards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+
+.systemcards {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  color: #dfe3e5;
+}
+
+
+.card-badge {
+  position: absolute;
+  top: -10px;
+  left: 16px;
+  background: #ffffff;
+  color: #0b0b0b;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.cardimage {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.00));
+}
+
+.cardimage img {
+  max-height: 170px;
+  object-fit: contain;
+  display: block;
+}
+.carddimage img {
+  max-height: 170px;
+  object-fit: contain;
+  display: block;
+}
+
+.cardbody {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+
+.cardcategory {
+  color: #06a6ff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+
+.cardtitle {
+  margin: 0;
+  font-size: 16px;
+  color: #f5f5f5;
+  line-height: 1.18;
+}
+
+
+.carddesk {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  color: #9fa6ab;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.descdesc{
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.toorder{
+  background-color: #e02b2b;
+}
+
+.theme{
+  background-color: #06a6ff;
+}
+
+.carddimage:hover{
+  cursor: pointer;
+  content: url("images/pcamd2.png");
+
+}
+.themetoggle {
+  border: 2px solid #0ff;
+  background: transparent;
+  color: #0ff;
+  box-shadow: 0 0 5px #0ff;
+}
+
+
+
+.themetoggle:hover {
+  background: #0ff;
+  color: #111;
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+.descname {
+  margin-top: -300px;
+  margin-left: 30px;
+  color:white
+}
+.carddimage{
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.00));
+}
+.cardimage:hover{
+  cursor: pointer;
+  content: url("images/5060img2.png");
+}
+
+.product-bottom {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardprice {
+  color: #e02b2b;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.cardprice1 {
+  font-weight: 400;
+  color: #e02b2b;
+  font-size: 12px;
+}
+
+.descimg img{
+  width: 27px;
+}
+
+
+.descdesc{
+  margin-bottom:-15px;
+}
+
+.pccards{
+  gap:20px;
+  
+  
+}
+
+.systemcards{
+  border: #605C5C solid 1px;
+ border-radius: 8px;
+}
